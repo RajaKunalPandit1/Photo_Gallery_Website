@@ -1,0 +1,36 @@
+body{
+    background-color: gray;
+}
+
+img{
+    width: 30%;
+    /* margin: 1.666%; */
+    margin: calc(10%/6);
+    transition: transform 0.25s;
+}
+
+nav{
+    text-transform: uppercase;
+    border-bottom: 2px solid #f2f2f2;
+    width: 30%;
+    margin-left: calc(10%/6);
+    font-family: 'Lobster Two', cursive;
+    font-weight: bolder;
+    font-size: 1.5em;
+    padding: 1.2em 0;
+    transition: border-color 2s,transform 0.25s;
+}
+
+nav:hover{
+    cursor: pointer;
+    border-bottom: 2px solid yellow;
+    box-shadow: 0 0.05em 0.05em -0.2em #f1ff5c;
+    transform: translateY(-0.25em);
+    /* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+}
+
+img:hover{
+    cursor: pointer;
+    box-shadow: 0 0.15em 0.15em -0.4em yellow;
+    transform: translateY(-0.15em);
+}
